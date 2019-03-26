@@ -14,7 +14,10 @@ import cn.sxt.pojo.Goods;
  */
 @Component
 public interface GoodsDao {
-	
+	/**
+	 * @Description: 查找所有的商品
+	 * @return: List<Goods>返回商品对象的List集合；
+	 */
 	public List<Goods> findAll();
 
 }
